@@ -11,6 +11,8 @@
       "maxzoom": 19
     }
   },
+  "sprite": "https://vallaris.dragonfly.gistda.or.th/core/tiles/sprite/sprites",
+  "glyphs": "https://vallaris.dragonfly.gistda.or.th/core/tiles/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "satellite",
