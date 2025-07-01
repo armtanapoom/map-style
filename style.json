@@ -11,7 +11,7 @@
   },
   "layers": [
     {
-      "id": "satellite-layer",
+      "id": "satellite",
       "type": "raster",
       "source": "satellite",
       "minzoom": 0,
