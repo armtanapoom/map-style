@@ -1,0 +1,55 @@
+{
+  "version": 8,
+  "name": "Vallaris Blank",
+  "sources": {
+    "satellite": {
+      "id": "satellite",
+      "title": "satellite",
+      "type": "raster",
+      "tiles": ["https://vallaris.dragonfly.gistda.or.th/core/api/tiles/1.0-beta/tiles/public/satellite/{z}/{x}/{y}"],
+      "tileSize": 256
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "metadata": {
+        "vallaris:group": "Basemap"
+      },
+      "paint": {
+        "background-color": "rgba(0, 0, 0, 0)"
+      },
+      "type": "background"
+    },
+    {
+      "id": "sat",
+      "maxzoom": 22,
+      "minzoom": 0,
+      "source": "satellite",
+      "type": "raster"
+    },
+    {
+      "id": "hill",
+      "layout": {
+        "visibility": "visible"
+      },
+      "maxzoom": 22,
+      "minzoom": 0,
+      "source": "hillshade",
+      "type": "raster"
+    }
+  ],
+  "bearing": 0,
+  "center": [97.985341, 14.300551],
+  "metadata": {
+    "vallaris:groups": {
+      "Basemap": {
+        "collapsed": true,
+        "color": "rgba(61,130,168,1)",
+        "name": "Basemap"
+      }
+    }
+  },
+  "pitch": 0,
+  "zoom": 5
+}
