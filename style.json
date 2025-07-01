@@ -4,7 +4,7 @@
   "sources": {
     "satellite": {
       "type": "raster",
-      "tiles": ["https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"],
+      "tiles": ["https://vallaris.dragonfly.gistda.or.th/core/api/tiles/1.0-beta/tiles/public/satellite/{z}/{x}/{y}"],
       "tileSize": 256,
       "maxzoom": 19
     }
