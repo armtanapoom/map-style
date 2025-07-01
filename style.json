@@ -11,13 +11,6 @@
   },
   "layers": [
     {
-      "id": "background",
-      "type": "background",
-      "paint": {
-        "background-color": "rgba(0, 0, 0, 0)"
-      }
-    },
-    {
       "id": "satellite-layer",
       "type": "raster",
       "source": "satellite",
