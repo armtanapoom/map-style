@@ -1,10 +1,12 @@
 {
   "version": 8,
-  "name": "Vallaris Satellite Offline",
+  "name": "Esri World Imagery",
   "sources": {
     "satellite": {
       "type": "raster",
-      "tiles": ["https://vallaris.dragonfly.gistda.or.th/core/api/tiles/1.0-beta/tiles/public/satellite/{z}/{x}/{y}"],
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      ],
       "tileSize": 256,
       "maxzoom": 19
     }
@@ -18,8 +20,8 @@
       "maxzoom": 19
     }
   ],
-  "center": [97.985341, 14.300551],
-  "zoom": 5,
+  "center": [100.5018, 13.7563],
+  "zoom": 10,
   "bearing": 0,
   "pitch": 0
 }
