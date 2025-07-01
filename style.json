@@ -22,7 +22,7 @@
       "type": "raster",
       "source": "satellite",
       "minzoom": 0,
-      "maxzoom": 22
+      "maxzoom": 19
     }
   ],
   "center": [97.985341, 14.300551],
