@@ -1,14 +1,14 @@
 {
   "version": 8,
-  "name": "Esri World Imagery",
+  "name": "NASA GIBS TrueColor",
   "sources": {
     "satellite": {
       "type": "raster",
       "tiles": [
-        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_CorrectedReflectance_TrueColor/default/2025-07-01/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg"
       ],
       "tileSize": 256,
-      "maxzoom": 19
+      "maxzoom": 9
     }
   },
   "layers": [
@@ -17,11 +17,11 @@
       "type": "raster",
       "source": "satellite",
       "minzoom": 0,
-      "maxzoom": 19
+      "maxzoom": 9
     }
   ],
   "center": [100.5018, 13.7563],
-  "zoom": 10,
+  "zoom": 5,
   "bearing": 0,
   "pitch": 0
 }
