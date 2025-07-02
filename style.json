@@ -5,7 +5,7 @@
     "satellite": {
       "type": "raster",
       "tiles": [
-        "https://gisdb.pwa.co.th/core/api/tiles/1.0-beta/tiles/66715f47598161c571f67581/{z}/{x}/{y}?api_key=EBATVwdYwLXWAnrOf04lpQa8MYGIQIlLCIrkDgIoUsw3XIPgNOmWomLFW9u9Vub9"
+        "https://va-cdn-02.vallarismaps.com/core/api/tiles/1.0-beta/tiles/public/hillshade/{z}/{x}/{y}"
       ],
       "tileSize": 256,
       "maxzoom": 19
