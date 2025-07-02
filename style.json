@@ -5,7 +5,7 @@
     "satellite": {
       "type": "raster",
       "tiles": [
-        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+        "https://va-cdn-02.vallarismaps.com/core/api/tiles/1.0-beta/tiles/public/hillshade/{z}/{x}/{y}"
       ],
       "tileSize": 256,
       "maxzoom": 19
